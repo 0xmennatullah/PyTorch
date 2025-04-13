@@ -28,8 +28,8 @@
 - Unstructured data: posts, wikis, images, audio files  
 - Example: neural networks  
 - Usages?  
-  ![DL Usage](img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
-
+![  ![DL Usage](img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٠٤١٥.png)]
+(https://D:\PyTorch Repo\img\Pasted image ٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
 ![ML vs DL](img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٢٦٤٩.png)
 
 ## 3. Neural Networks
@@ -90,7 +90,7 @@
   - 3D => `[[]]`  
   - 4D => `[[[]]]`, etc.  
 
-![Tensor Shape](img/tensor_shape.png)
+![Tensor Shape](img\Pasted image ٢٠٢٥٠٤١٣١٠٤٠٥٤.png)
 
 - Tensors = batches of matrices  
 - Here, 1 matrix, 3 rows, 3 columns => (1, 3, 3) => tensor's shape  
