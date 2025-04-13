@@ -1,125 +1,111 @@
-## Funds
+# Funds?
 
-### 1. Traditional vs ML
+## 1. Traditional vs ML
 
-#### Traditional Approach: Input + Rules = Output
+### 1.1 Traditional: input + rules = output
 
-- **Explainability**: Easier to understand and interpret.
-- **Simplicity**: A straightforward approach.
-- **Error Handling**: Less tolerant to errors.
-- **Data Limitation**: Insufficient data to extract rules effectively.
+- Explainability  
+- Traditional approach better (simpler)  
+- Unaccepting of errors  
+- Not enough data to extract rules  
 
-#### Machine Learning (ML) / Deep Learning (DL): Input + Output = Rules
+### 1.2 ML || DL: input + output = rules
 
-- **Complex Systems**: Ideal for scenarios with millions of rules that are hard to manually define.
-- **Adaptability**: Handles environmental changes well.
-- **Large Data Insights**: Extracts insights from vast datasets (e.g., differentiating 100 types of food, each with unique rules).
+- Good for the things that have millions of rules you can't throw out of your mind  
+- Environment change  
+- Large data extracting insights (e.g., differentiating 100 kinds of food, each with its own rules)  
 
----
+## 2. ML vs DL
 
-### 2. ML vs DL
+### 2.1 ML
 
-#### Machine Learning (ML)
+- Structured data: rows and columns  
+- Production systems  
+- Example: XGBoost  
 
-- **Data Type**: Structured data (e.g., rows and columns).
-- **Applications**: Production systems.
-- **Example**: XGBoost.
-#### Deep Learning (DL)
+### 2.2 DL
 
-- **Data Type**: Unstructured data (e.g., posts, wikis, images, audio files).
-- **Example**: Neural networks.
-- ![**Usage Scenarios**:]
-#### Deep Learning (DL)
+- Unstructured data: posts, wikis, images, audio files  
+- Example: neural networks  
+- Usages?  
+  ![DL Usage](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
 
-- **Data Type**: Unstructured data (e.g., posts, wikis, images, audio files).
-- **Example**: Neural networks.
-- **Usage Scenarios**:
-    ![Deep Learning Usage Scenarios](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
+![ML vs DL](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٢٦٤٩.png)
 
----
+## 3. Neural Networks
 
-### 3. Neural Networks
+- Input: unstructured data  
+- Turn it into numbers (numerical encoding)  
+- Pass it to NN -> learns representation (weights)  
+- Representation outputs (features, classes)  
+- Outputs: human understandable form  
 
-#### Process Flow:
+![Neural Networks](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٤١٤.png)
 
-1. Input: Unstructured data.
-2. Numerical Encoding: Convert input into numbers.
-3. Neural Network (NN): Learns representations (weights).
-4. Representation Outputs: Features or classes.
-5. Outputs: Presented in a human-understandable form.
-6. **Example Image**:
+## 4. Types of Learning
 
-    ![Example Image](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٤١٤.png)
+- Supervised: data + labels for each  
+- Unsupervised: inherit representations / figure out differences without labeling  
+- Transfer: take patterns learned and transfer to another model to get a head start  
+- Reinforcement learning: environment + agent => rewards/no reward  
 
----
+![Types of Learning](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٨٣٥.png)
 
-### 4. Types of Learning
+# PyTorch
 
-1. **Supervised Learning**: Data with labels for each example.
-2. **Unsupervised Learning**: Learns representations and differences without labels.
-3. **Transfer Learning**: Transfers patterns learned in one model to another for faster training.
-4. **Reinforcement Learning**: Interaction between an agent and its environment, aiming for rewards or avoiding penalties.
-5. **Example Image**:
+## 1. GPU/TPU?
 
-    ![Example Image](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٨٣٥.png)
+### 1.1 CUDA
 
----
+- Run ML code on GPU  
 
-## PyTorch
+### 1.2 TPU: Tensor Processing Unit (not as popular)
 
-### 1. GPU/TPU
+#### 1.2.1 Tensor?
 
-#### CUDA:
+![Tensor](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣١٥٥٢.png)
 
-- Allows ML code to run on GPUs.
+- Any numerical representation mainly  
+- [Dan's Explanation](https://youtu.be/f5liqUk0ZTw?si=ERNNCMsPsRMAYRY6)  
+  - Vectors: can represent an area, make its length proportional to square meters of area + perpendicular on it  
+  - V-components: projection of vector on the axis, so instead of drawing the vector, we can say it's *n* of X units, *m* of Y units, etc., in column vector  
+  - ![Dan's Vector](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٢٥٤٧.png)  
+  - Vectors are rank 1 tensors -> a basis vector for each direction, one directional component for each axis  
+  - Scalars -> tensors of rank zero, no direction needed  
+  - Forces + areas vectors per surface => rank 2 tensor (2×2 matrix)  
+  - 3D matter representations -> (3×3 matrix) -> 3 indices for each component -> rank 3 tensor  
+  - Lillian Libres  
 
+## 2. Workflow
 
-#### TPU (Tensor Processing Unit):
+![Workflow](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٣٤١٩.png)
 
-- Not as popular as GPUs.
+## 3. Intro to Tensors
 
+- ==as1: read torch.tensor from doc==  
+- ![Intro to Tensors](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٣١٠٢٦٥٤.png)  
+- Anytime encoding data into numbers => `torch.tensor`  
+- We use numerical brackets `[]` in tensors => depending on level of nesting  
+  - 2D => `[]`  
+  - 3D => `[[]]`  
+  - 4D => `[[[]]]`, etc.  
 
-#### Tensor Basics:
+![Tensor Shape](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٣١٠٤٠٥٤.png)
 
-1. Any numerical representation, primarily used in ML/DL workflows.
-2. [Dan's Explanation](https://youtu.be/f5liqUk0ZTw?si=ERNNCMsPsRMAYRY6):
-    - Vectors represent areas; their length can be proportional to square meters of an area and perpendicular to it.
-    - Vector components are projections on axes, expressed as column vectors.
-    - Scalars are rank-zero tensors (no directions required).
-    - Higher-dimensional tensors:
-        - Rank 1 Tensor = Vectors (one direction per axis).
-        - Rank 2 Tensor = Forces/areas represented in a matrix (e.g., 2×2 matrix).
-        - Rank 3 Tensor = 3D matter represented in a matrix (e.g., 3×3 matrix).
+- Tensors = batches of matrices  
+- Here, 1 matrix, 3 rows, 3 columns => (1, 3, 3) => tensor's shape  
+- So outer `[]` => contains batches, inner `[]` contains matrix/matrices, then `[]` contains each vector/element  
+- `'tensor['batch'['matrix[vector[]]]]' => (1b, 1m,1v(r,c))`  
+- Why MATRIX, TENSOR => all caps? No idea.  
 
----
+- ==as2: read random.tensors from doc==  
+- as3: `torch.arange`  
+- `tensor_like` => same shape of some tensor  
+  - `tensor1 = torch.zeros_like(tensor2)`  
+  - Making a tensor - tensor1 - with the shape of tensor2 but filled with zeros instead of elements, just got the structure only  
 
-### 2. Workflow:
+## 4. Data Types
 
-![Pasted image](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٣٤١٩.png)
-
----
-
-### 3. Introduction to Tensors
-
-1. **Definition**:
-    - Tensors encode data into numerical formats using brackets (`[]`).
-    - Nesting levels determine dimensions:
-        - 2D → `[]`
-        - 3D → `[[]]`
-        - 4D → `[[[]]]`, etc.
-2. Example:
-    - A tensor with one matrix, three rows, and three columns → `(1,3,3)` shape.
-3. Structure:
-    - Outer `[]`: Contains batches.
-    - Inner `[]`: Contains matrices.
-    - Innermost `[]`: Contains vectors/elements.
-4. Notation:
-    - `tensor['batch'['matrix[vector[]]]]` → `(batch_size, matrix_size, vector_size)`.
-5. Tensor Creation:
-    - Use `torch.tensor` for encoding data into numbers.
-6. Tensor-Like Structures:
-    - Example: `tensor1 = torch.zeros_like(tensor2` creates a tensor with the same shape as tensor2 but filled with zeros.
-7. Data Types:
-    - Precision in computing refers to the number of digits used to represent a number.
-    - Single float point precision → 32-bit; half precision → 16-bit (uses less memory and faster calculations).
-
+- ==as4: datatype read from doc==  
+- Precision in computing: number of digits used to represent a number  
+- Single float point => 32-bit, 16 => half precision => less memory => faster calculation  
