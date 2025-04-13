@@ -90,7 +90,7 @@
   - 3D => `[[]]`  
   - 4D => `[[[]]]`, etc.  
 
-![Tensor Shape](img/Pasted%20image%٢٠٢٥٠٤١٣١٠٤٠٥٤.png)
+![Tensor Shape](img/tensor_shape.png)
 
 - Tensors = batches of matrices  
 - Here, 1 matrix, 3 rows, 3 columns => (1, 3, 3) => tensor's shape  
