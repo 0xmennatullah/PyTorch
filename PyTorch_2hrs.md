@@ -62,7 +62,7 @@
 
 #### 1.2.1 Tensor?
 
-![Tensor]
+![Tensor](img/Tensors.png)
 
 - Any numerical representation mainly  
 - [Dan's Explanation](https://youtu.be/f5liqUk0ZTw?si=ERNNCMsPsRMAYRY6)  
@@ -77,7 +77,7 @@
 
 ## 2. Workflow
 
-![Workflow]
+![Workflow](img/workflow.png)
 
 ## 3. Intro to Tensors
 
