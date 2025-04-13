@@ -9,7 +9,6 @@
 - **Error Handling**: Less tolerant to errors.
 - **Data Limitation**: Insufficient data to extract rules effectively.
 
-
 #### Machine Learning (ML) / Deep Learning (DL): Input + Output = Rules
 
 - **Complex Systems**: Ideal for scenarios with millions of rules that are hard to manually define.
@@ -25,14 +24,17 @@
 - **Data Type**: Structured data (e.g., rows and columns).
 - **Applications**: Production systems.
 - **Example**: XGBoost.
-
-
 #### Deep Learning (DL)
 
 - **Data Type**: Unstructured data (e.g., posts, wikis, images, audio files).
 - **Example**: Neural networks.
 - ![**Usage Scenarios**:]
-(./img/Pasted image ٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
+#### Deep Learning (DL)
+
+- **Data Type**: Unstructured data (e.g., posts, wikis, images, audio files).
+- **Example**: Neural networks.
+- **Usage Scenarios**:
+    ![Deep Learning Usage Scenarios](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
 
 ---
 
@@ -45,7 +47,9 @@
 3. Neural Network (NN): Learns representations (weights).
 4. Representation Outputs: Features or classes.
 5. Outputs: Presented in a human-understandable form.
-6. ![[Pasted image ٢٠٢٥٠٤١٢٢٢٥٤١٤.png]]
+6. **Example Image**:
+
+    ![Example Image](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٤١٤.png)
 
 ---
 
@@ -55,7 +59,9 @@
 2. **Unsupervised Learning**: Learns representations and differences without labels.
 3. **Transfer Learning**: Transfers patterns learned in one model to another for faster training.
 4. **Reinforcement Learning**: Interaction between an agent and its environment, aiming for rewards or avoiding penalties.
-5. ![[Pasted image ٢٠٢٥٠٤١٢٢٢٥٨٣٥.png]]
+5. **Example Image**:
+
+    ![Example Image](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٨٣٥.png)
 
 ---
 
@@ -89,7 +95,7 @@
 
 ### 2. Workflow:
 
-![[Pasted image ٢٠٢٥٠٤١٢٢٣٣٤١٩.png]]
+![Pasted image](./img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٣٤١٩.png)
 
 ---
 
