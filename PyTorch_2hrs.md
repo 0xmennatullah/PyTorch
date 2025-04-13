@@ -31,8 +31,8 @@
 
 - **Data Type**: Unstructured data (e.g., posts, wikis, images, audio files).
 - **Example**: Neural networks.
-- **Usage Scenarios**:
-    - ![[Pasted image ٢٠٢٥٠٤١٢٢٣٠٤١٥.png]]
+![- **Usage Scenarios**:]
+(./img/Pasted image ٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
 
 ---
 
