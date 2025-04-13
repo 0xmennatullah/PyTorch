@@ -28,9 +28,9 @@
 - Unstructured data: posts, wikis, images, audio files  
 - Example: neural networks  
 - Usages?  
-  ![DL Usage](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
+  ![DL Usage](img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٠٤١٥.png)
 
-![ML vs DL](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٢٦٤٩.png)
+![ML vs DL](img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٢٦٤٩.png)
 
 ## 3. Neural Networks
 
@@ -40,7 +40,7 @@
 - Representation outputs (features, classes)  
 - Outputs: human understandable form  
 
-![Neural Networks](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٤١٤.png)
+![Neural Networks](img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٤١٤.png)
 
 ## 4. Types of Learning
 
@@ -49,7 +49,7 @@
 - Transfer: take patterns learned and transfer to another model to get a head start  
 - Reinforcement learning: environment + agent => rewards/no reward  
 
-![Types of Learning](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٨٣٥.png)
+![Types of Learning](img/Pasted%20image%٢٠٢٥٠٤١٢٢٢٥٨٣٥.png)
 
 # PyTorch
 
@@ -63,13 +63,13 @@
 
 #### 1.2.1 Tensor?
 
-![Tensor](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣١٥٥٢.png)
+![Tensor](img/Pasted%20image%٢٠٢٥٠٤١٢٢٣١٥٥٢.png)
 
 - Any numerical representation mainly  
 - [Dan's Explanation](https://youtu.be/f5liqUk0ZTw?si=ERNNCMsPsRMAYRY6)  
   - Vectors: can represent an area, make its length proportional to square meters of area + perpendicular on it  
   - V-components: projection of vector on the axis, so instead of drawing the vector, we can say it's *n* of X units, *m* of Y units, etc., in column vector  
-  - ![Dan's Vector](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٢٥٤٧.png)  
+  - ![Dan's Vector](img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٢٥٤٧.png)  
   - Vectors are rank 1 tensors -> a basis vector for each direction, one directional component for each axis  
   - Scalars -> tensors of rank zero, no direction needed  
   - Forces + areas vectors per surface => rank 2 tensor (2×2 matrix)  
@@ -78,19 +78,19 @@
 
 ## 2. Workflow
 
-![Workflow](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٣٤١٩.png)
+![Workflow](img/Pasted%20image%٢٠٢٥٠٤١٢٢٣٣٤١٩.png)
 
 ## 3. Intro to Tensors
 
 - ==as1: read torch.tensor from doc==  
-- ![Intro to Tensors](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٣١٠٢٦٥٤.png)  
+- ![Intro to Tensors](img/Pasted%20image%٢٠٢٥٠٤١٣١٠٢٦٥٤.png)  
 - Anytime encoding data into numbers => `torch.tensor`  
 - We use numerical brackets `[]` in tensors => depending on level of nesting  
   - 2D => `[]`  
   - 3D => `[[]]`  
   - 4D => `[[[]]]`, etc.  
 
-![Tensor Shape](D:/PyTorch%20Repo/img/Pasted%20image%٢٠٢٥٠٤١٣١٠٤٠٥٤.png)
+![Tensor Shape](img/Pasted%20image%٢٠٢٥٠٤١٣١٠٤٠٥٤.png)
 
 - Tensors = batches of matrices  
 - Here, 1 matrix, 3 rows, 3 columns => (1, 3, 3) => tensor's shape  
