@@ -28,7 +28,7 @@
 - Unstructured data: posts, wikis, images, audio files  
 - Example: neural networks  
 - Usages?  
-![DL Usage](img/DL_usage.png)
+![DL Usage](./img/DL_usage.png)
 ![ML vs DL](img/ML_usage.png)
 
 ## 3. Neural Networks
