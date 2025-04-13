@@ -28,8 +28,8 @@
 - Unstructured data: posts, wikis, images, audio files  
 - Example: neural networks  
 - Usages?  
-![DL Usage](img/dl_usage_example.png)
-![ML vs DL](img/ml_vs_dl_example.png)
+![DL Usage](img/DL_usage.png)
+![ML vs DL](img/ML_usage.png)
 
 ## 3. Neural Networks
 
@@ -39,7 +39,7 @@
 - Representation outputs (features, classes)  
 - Outputs: human understandable form  
 
-![Neural Networks](img/neural_networks_example.png)
+![Neural Networks](img/NN.png)
 
 ## 4. Types of Learning
 
@@ -48,7 +48,7 @@
 - Transfer: take patterns learned and transfer to another model to get a head start  
 - Reinforcement learning: environment + agent => rewards/no reward  
 
-![Types of Learning](img/types_of_learning_example.png)
+![Types of Learning](img/types_of_learning.png)
 
 # PyTorch
 
