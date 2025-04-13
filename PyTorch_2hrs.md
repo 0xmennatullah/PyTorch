@@ -1,5 +1,5 @@
 # Funds?
-
+--- 
 ## 1. Traditional vs ML
 
 ### 1.1 Traditional: input + rules = output

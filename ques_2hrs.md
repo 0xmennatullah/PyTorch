@@ -1,4 +1,4 @@
-
+- note: this is convo with preplexity regarding some foggy points, no specific subject.
 # why did we put [[]] outside the elements not just one [] and the three vectors inside like [[3],[4],[6]] for instance like what we did in matrix
 
 The reason for using double brackets `[[ ]]` instead of single brackets `[ ]` when defining the tensor in PyTorch is to specify the dimensionality of the data structure. Here's the breakdown:
