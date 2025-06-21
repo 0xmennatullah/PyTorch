@@ -1,4 +1,4 @@
 # PyTorch
 - Jupyter Notebook code.
-- Notes folder for each 2hrs.
+- Notes sub-folders for each 2hrs.
 
