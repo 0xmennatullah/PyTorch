@@ -1,3 +1,4 @@
 # PyTorch
-Some notes and searches upon PyTorch in a day yt vid.
+- Jupyter Notebook code.
+- Notes folder for each 2hrs.
 
